@@ -1,0 +1,19 @@
+<div class="container">
+
+  <h2>{{ title }}</h2>
+
+  <label>Enter Your Name:</label>
+
+  <br><br>
+
+  <input
+    type="text"
+    [(ngModel)]="name"
+    placeholder="Enter Your Name"
+  />
+
+  <h3>
+    Hello, {{ name }} {{ surname }}
+  </h3>
+
+</div>
